@@ -59,7 +59,7 @@ def serialize_user(user):
 async def send_email(order: Order, pdf_path: str):
     sender_email = "prerakp87@gmail.com"
     receiver_email = order.customer_email  # Access model attribute
-    password = "zzni hzml akfx nlzq"  # Replace with your App Password
+    password =   # Replace with your App Password
 
     message = MIMEMultipart()
     message["From"] = sender_email
